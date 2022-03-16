@@ -21,7 +21,7 @@ setInterval(() => {
 console.log('===============================');
 events.emit('create-order', { phonyData });
 console.log('===============================');
-}, 3000);
+}, 1000);
 
 
 
