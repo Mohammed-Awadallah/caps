@@ -1,13 +1,13 @@
 'use strict';
 
 const events = require('../events');
-// let faker = require('faker');
+let {faker} = require('@faker-js/faker');
 
 let phonyData = {
-    "store":  "ibrahim for everything",
-    "orderId": "1234567891011",
-    "customer": "ASAC",
-    "address": "skhsdkhkhsgk"
+    "store":  "ASAC STORE",
+    "orderId": faker.phone.phoneNumber(),
+    "customer":faker.name.findName(),
+    "address": faker.address.streetAddress()
 }
 
 events.on('deliveredVendor', deliveredVendor);

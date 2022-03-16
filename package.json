@@ -1,0 +1,25 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hub.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node hub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammed-Awadallah/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammed-Awadallah/caps/issues"
+  },
+  "homepage": "https://github.com/Mohammed-Awadallah/caps#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0",
+    "jest": "^27.5.1"
+  }
+}
