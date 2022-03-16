@@ -30,4 +30,4 @@ function deliveredEvent(payload) {
     console.log('Event', log);
     console.log('VENDOR :', `Thank you ${payload.phonyData.customer}`);
 }
-console.log("111111111111111111111111111111111");
+// console.log("111111111111111111111111111111111");
