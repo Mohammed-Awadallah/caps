@@ -31,4 +31,5 @@ describe('Test events', () => {
         await consoleSpy();
         expect(consoleSpy).toHaveBeenCalled();
     });
+    
 })
