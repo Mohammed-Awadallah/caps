@@ -2,10 +2,10 @@
   "name": "caps",
   "version": "1.0.0",
   "description": "",
-  "main": "hub.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
-    "start": "node hub.js"
+    "test": "jest --verbose --coverage"
+   
   },
   "repository": {
     "type": "git",
