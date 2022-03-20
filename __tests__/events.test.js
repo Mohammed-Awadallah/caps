@@ -1,5 +1,5 @@
 'use strict';
-const events = require('../src/events')
+const events = require('../events')
 let data = {
     store: 'Mcdonalds',
     orderId: '6538989fjs-sddsfsdfdsf-428877878384d-a565-48c82be5',
