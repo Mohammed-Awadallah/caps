@@ -10,15 +10,17 @@ let data = {
     customer: faker.name.findName(),
     address: `${faker.address.city()}, ${faker.address.stateAbbr()}`,
 };
-describe('testing the connection ',()=>{
-    let consoleSpy;
-    beforeAll(() => {
-        consoleSpy = jest.spyOn(console, 'log').mockImplementation();
-    })
-    
-  afterAll(() =>{
-    consoleSpy.mockRestore();
+
+let consoleSpy;
+beforeAll(() => {
+    consoleSpy = jest.spyOn(console, 'log').mockImplementation();
 })
+
+afterAll(() =>{
+consoleSpy.mockRestore();
+})
+describe('testing the connection ',()=>{
+
 
   it('testing the client connection',async()=>{
         io.emit('connection',socketObj);
